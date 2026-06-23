@@ -130,4 +130,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsk1lan.com/" />
   </url>
 
+  <url>
+    <loc>https://www.hsk1lan.com/privacy.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hsk1lan.com/terms.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
