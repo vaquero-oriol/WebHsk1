@@ -57,7 +57,7 @@
     "operatingSystem": "iOS, Android",
     "applicationCategory": "EducationalApplication",
     "description": "HSK1中国語試験対策のための総合アプリ。由来と覚え方付きの部首90個、ピンイン付きのHSK1全語彙（150語）、練習フレーズ150文、そしてスマート復習システムを搭載。無料版は部首20個・単語20語・フレーズ20文。買い切りまたは月額サブスクですべて解放。",
-    "inLanguage": ["en", "es", "fr", "de", "it", "ja", "ca", "cs"],
+    "inLanguage": ["ar", "ca", "de", "en", "es", "fr", "it", "ja", "ko", "pt", "vi"],
     "offers": [
       { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "category": "無料版", "description": "無料版：部首20個、HSK1単語20語、練習フレーズ20文" },
       { "@type": "Offer", "price": "6.99", "priceCurrency": "EUR", "category": "買い切り", "description": "一度の購入でアプリ全体を永久に解放" },
@@ -86,7 +86,7 @@
       { "@type": "Question", "name": "始めるのに必要なレベルは？", "acceptedAnswer": { "@type": "Answer", "text": "不要です。HSK 1 Lan は完全な初心者向けです。最初の部首と漢字から始め、試験本番に向けて導きます。" } },
       { "@type": "Question", "name": "音声は付いていますか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。すべての単語とフレーズに発音音声が付いており、読み書きに加えてリスニングも鍛えられます。" } },
       { "@type": "Question", "name": "いつでも解約できますか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。月額プランはアプリストアのアカウントからいつでも解約できます。サブスクが不要なら、買い切り6.99€でアプリ全体を永久にご利用いただけます。" } },
-      { "@type": "Question", "name": "アプリは何言語に対応していますか？", "acceptedAnswer": { "@type": "Answer", "text": "8言語：スペイン語、英語、フランス語、ドイツ語、イタリア語、日本語、カタルーニャ語、チェコ語。" } }
+      { "@type": "Question", "name": "アプリは何言語に対応していますか？", "acceptedAnswer": { "@type": "Answer", "text": "11言語：アラビア語、カタルーニャ語、ドイツ語、英語、スペイン語、フランス語、イタリア語、日本語、韓国語、ポルトガル語、ベトナム語。" } }
     ]
   }
   </script>
@@ -142,16 +142,31 @@
             <a href="#download" class="btn btn-primary"><i class="fa-solid fa-download" aria-hidden="true"></i> 無料ダウンロード</a>
             <a href="#pricing" class="btn btn-ghost"><i class="fa-solid fa-unlock" aria-hidden="true"></i> すべて解放 – 2.99€から</a>
           </div>
-          <p class="hero-note"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> 無料で開始 · 縛りなし · 8言語対応</p>
+          <p class="hero-note"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> 無料で開始 · 縛りなし · 11言語対応</p>
         </div>
         <div>
-          <!-- アプリのモックアップ（プレースホルダー、実際のスクリーンショットはまだ） -->
-          <div class="phone" role="img" aria-label="アプリプレビュー：漢字 吃（chī、食べる）">
-            <div class="phone-screen">
-              <div class="ch">吃</div>
+          <!-- App-preview bento cluster (placeholder visuals) -->
+          <div class="hero-bento" role="img" aria-label="アプリのプレビュー：単語 吃（chī、食べる）、その部首 口 と 乞、そして例文 我吃饭（wǒ chī fàn、ご飯を食べる）と声調色付きピンイン">
+            <div class="bx bx-char">
+              <span class="tag tag-gold corner-tag">単語</span>
+              <div class="ch hz">吃</div>
               <div class="py">chī</div>
               <div class="mn">食べる</div>
-              <div class="tag">プレビュー</div>
+            </div>
+            <div class="bx bx-rad">
+              <div class="k">部首</div>
+              <div class="mini-rad"><span>口</span><span>乞</span></div>
+              <div class="gloss">くち · こう</div>
+            </div>
+            <div class="bx bx-phrase">
+              <div class="k">例文</div>
+              <div class="phrase-hz hz">我吃饭</div>
+              <div class="tone-row">
+                <b style="color:var(--t3)">wǒ</b>
+                <b style="color:var(--t1)">chī</b>
+                <b style="color:var(--t4)">fàn</b>
+              </div>
+              <div class="gloss">ご飯を食べる</div>
             </div>
           </div>
         </div>
@@ -163,7 +178,7 @@
         <div class="counter reveal"><div class="num" data-target="90"></div><div class="label">中国語の部首</div></div>
         <div class="counter reveal"><div class="num" data-target="150"></div><div class="label">HSK1単語</div></div>
         <div class="counter reveal"><div class="num" data-target="150"></div><div class="label">練習フレーズ</div></div>
-        <div class="counter reveal"><div class="num" data-target="8"></div><div class="label">対応言語</div></div>
+        <div class="counter reveal"><div class="num" data-target="11"></div><div class="label">対応言語</div></div>
       </div>
     </section>
 
@@ -229,18 +244,21 @@
       <div class="wrap">
         <div class="section-head reveal" style="margin-bottom:8px">
           <span class="eyebrow">あなたの言語で学ぶ</span>
-          <h2 class="section-title">8言語に翻訳</h2>
+          <h2 class="section-title">11言語に対応</h2>
           <p>すでに使いこなせる言語で中国語を学習。解説がより明快に、上達がより速く。</p>
         </div>
         <div class="lang-chips reveal">
-          <span>Español</span>
-          <span>English</span>
-          <span>Français</span>
+          <span>العربية</span>
+          <span>Català</span>
           <span>Deutsch</span>
+          <span>English</span>
+          <span>Español</span>
+          <span>Français</span>
           <span>Italiano</span>
           <span>日本語</span>
-          <span>Català</span>
-          <span>Čeština</span>
+          <span>한국어</span>
+          <span>Português</span>
+          <span>Tiếng Việt</span>
         </div>
       </div>
     </section>
@@ -350,7 +368,7 @@
           </div>
           <div class="faq-item reveal">
             <button class="faq-q" aria-expanded="false">アプリは何言語に対応していますか？ <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
-            <div class="faq-a"><p>8言語：スペイン語、英語、フランス語、ドイツ語、イタリア語、日本語、カタルーニャ語、チェコ語。すでに知っている言語で学ぶことで、すべてがより明快に、より速くなります。</p></div>
+            <div class="faq-a"><p>11言語：アラビア語、カタルーニャ語、ドイツ語、英語、スペイン語、フランス語、イタリア語、日本語、韓国語、ポルトガル語、ベトナム語。すでに知っている言語で学ぶことで、すべてがより明快に、より速くなります。</p></div>
           </div>
         </div>
       </div>
@@ -392,7 +410,7 @@
             <span class="orchid" aria-hidden="true"><img src="../assets/logo.png" alt="" width="34" height="34" /></span>
             <span>HSK 1 <b style="color:var(--red)">Lan</b></span>
           </div>
-          <p class="about">HSK1中国語試験対策のための、楽しくて総合的なアプリ — 部首・語彙・フレーズ・スマート復習を8言語で。</p>
+          <p class="about">HSK1中国語試験対策のための、楽しくて総合的なアプリ — 部首・語彙・フレーズ・スマート復習を11言語で。</p>
           <div class="foot-social">
             <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
             <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>

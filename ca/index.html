@@ -57,7 +57,7 @@
     "operatingSystem": "iOS, Android",
     "applicationCategory": "EducationalApplication",
     "description": "App completa per preparar l'examen HSK1 de xinès: 90 radicals amb origen i mnemotècnies, tot el vocabulari HSK1 (150 paraules) amb pinyin, 150 frases de pràctica i un sistema de repàs intel·ligent. Versió gratuïta amb 20 radicals, 20 paraules i 20 frases; desbloqueja-ho tot amb una compra única o una subscripció mensual.",
-    "inLanguage": ["en", "es", "fr", "de", "it", "ja", "ca", "cs"],
+    "inLanguage": ["ar", "ca", "de", "en", "es", "fr", "it", "ja", "ko", "pt", "vi"],
     "offers": [
       { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "category": "Versió gratuïta", "description": "Versió gratuïta amb 20 radicals, 20 paraules HSK1 i 20 frases de pràctica" },
       { "@type": "Offer", "price": "6.99", "priceCurrency": "EUR", "category": "Accés de per vida", "description": "Compra única que desbloqueja l'app completa per sempre" },
@@ -86,7 +86,7 @@
       { "@type": "Question", "name": "Quin nivell necessito per començar?", "acceptedAnswer": { "@type": "Answer", "text": "Cap. HSK 1 Lan està pensada per a principiants absoluts. Comencem pels primers radicals i caràcters i et guiem fins a estar a punt per a l'examen." } },
       { "@type": "Question", "name": "L'app inclou àudio?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, cada paraula i frase inclou àudio de pronunciació perquè entrenis l'escolta juntament amb la lectura i l'escriptura." } },
       { "@type": "Question", "name": "Puc cancel·lar quan vulgui?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. El pla mensual es pot cancel·lar en qualsevol moment des del teu compte de la botiga d'apps. Prefereixes no tenir subscripció? Compra l'app completa un cop per 6,99 € i queda-te-la per sempre." } },
-      { "@type": "Question", "name": "En quants idiomes està disponible l'app?", "acceptedAnswer": { "@type": "Answer", "text": "En vuit: espanyol, anglès, francès, alemany, italià, japonès, català i txec." } }
+      { "@type": "Question", "name": "En quants idiomes està disponible l'app?", "acceptedAnswer": { "@type": "Answer", "text": "Onze: àrab, català, alemany, anglès, espanyol, francès, italià, japonès, coreà, portuguès i vietnamita." } }
     ]
   }
   </script>
@@ -142,16 +142,31 @@
             <a href="#download" class="btn btn-primary"><i class="fa-solid fa-download" aria-hidden="true"></i> Descarrega-la gratis</a>
             <a href="#pricing" class="btn btn-ghost"><i class="fa-solid fa-unlock" aria-hidden="true"></i> Desbloqueja-ho tot – des de 2,99 €</a>
           </div>
-          <p class="hero-note"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Gratis per començar · Sense compromís · Disponible en 8 idiomes</p>
+          <p class="hero-note"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Gratis per començar · Sense compromís · Disponible en 11 idiomes</p>
         </div>
         <div>
-          <!-- Mockup de l'app (placeholder, encara sense captura real) -->
-          <div class="phone" role="img" aria-label="Vista prèvia de l'app: caràcter xinès 吃 (chī, menjar)">
-            <div class="phone-screen">
-              <div class="ch">吃</div>
+          <!-- App-preview bento cluster (placeholder visuals) -->
+          <div class="hero-bento" role="img" aria-label="Vista prèvia de l'app: la paraula 吃 (chī, menjar), els seus radicals 口 i 乞 i la frase 我吃饭 (wǒ chī fàn, jo menjo) amb pinyin acolorit per tons">
+            <div class="bx bx-char">
+              <span class="tag tag-gold corner-tag">Paraula</span>
+              <div class="ch hz">吃</div>
               <div class="py">chī</div>
               <div class="mn">menjar</div>
-              <div class="tag">Vista prèvia</div>
+            </div>
+            <div class="bx bx-rad">
+              <div class="k">Radicals</div>
+              <div class="mini-rad"><span>口</span><span>乞</span></div>
+              <div class="gloss">boca · mendicar</div>
+            </div>
+            <div class="bx bx-phrase">
+              <div class="k">Frase</div>
+              <div class="phrase-hz hz">我吃饭</div>
+              <div class="tone-row">
+                <b style="color:var(--t3)">wǒ</b>
+                <b style="color:var(--t1)">chī</b>
+                <b style="color:var(--t4)">fàn</b>
+              </div>
+              <div class="gloss">jo menjo</div>
             </div>
           </div>
         </div>
@@ -163,7 +178,7 @@
         <div class="counter reveal"><div class="num" data-target="90"></div><div class="label">Radicals xinesos</div></div>
         <div class="counter reveal"><div class="num" data-target="150"></div><div class="label">Paraules HSK1</div></div>
         <div class="counter reveal"><div class="num" data-target="150"></div><div class="label">Frases de pràctica</div></div>
-        <div class="counter reveal"><div class="num" data-target="8"></div><div class="label">Idiomes disponibles</div></div>
+        <div class="counter reveal"><div class="num" data-target="11"></div><div class="label">Idiomes disponibles</div></div>
       </div>
     </section>
 
@@ -229,18 +244,21 @@
       <div class="wrap">
         <div class="section-head reveal" style="margin-bottom:8px">
           <span class="eyebrow">Aprèn en el teu idioma</span>
-          <h2 class="section-title">Traduïda a 8 idiomes</h2>
+          <h2 class="section-title">Disponible en 11 idiomes</h2>
           <p>Estudia xinès des d'un idioma que ja domines: explicacions més clares, progrés més ràpid.</p>
         </div>
         <div class="lang-chips reveal">
-          <span>Español</span>
-          <span>English</span>
-          <span>Français</span>
+          <span>العربية</span>
+          <span>Català</span>
           <span>Deutsch</span>
+          <span>English</span>
+          <span>Español</span>
+          <span>Français</span>
           <span>Italiano</span>
           <span>日本語</span>
-          <span>Català</span>
-          <span>Čeština</span>
+          <span>한국어</span>
+          <span>Português</span>
+          <span>Tiếng Việt</span>
         </div>
       </div>
     </section>
@@ -350,7 +368,7 @@
           </div>
           <div class="faq-item reveal">
             <button class="faq-q" aria-expanded="false">En quants idiomes està disponible l'app? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
-            <div class="faq-a"><p>En vuit: espanyol, anglès, francès, alemany, italià, japonès, català i txec. Aprendre des d'un idioma que ja coneixes ho fa tot més clar i ràpid.</p></div>
+            <div class="faq-a"><p>Onze: àrab, català, alemany, anglès, espanyol, francès, italià, japonès, coreà, portuguès i vietnamita. Aprendre des d'un idioma que ja coneixes ho fa tot més clar i ràpid.</p></div>
           </div>
         </div>
       </div>
@@ -392,7 +410,7 @@
             <span class="orchid" aria-hidden="true"><img src="../assets/logo.png" alt="" width="34" height="34" /></span>
             <span>HSK 1 <b style="color:var(--red)">Lan</b></span>
           </div>
-          <p class="about">L'app amena i completa per preparar l'examen HSK1 de xinès: radicals, vocabulari, frases i repàs intel·ligent, en 8 idiomes.</p>
+          <p class="about">L'app amena i completa per preparar l'examen HSK1 de xinès: radicals, vocabulari, frases i repàs intel·ligent, en 11 idiomes.</p>
           <div class="foot-social">
             <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
             <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>

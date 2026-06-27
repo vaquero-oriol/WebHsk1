@@ -57,7 +57,7 @@
     "operatingSystem": "iOS, Android",
     "applicationCategory": "EducationalApplication",
     "description": "Kompletní aplikace pro přípravu na zkoušku HSK1 z čínštiny: 90 radikálů s původem a mnemotechnikami, celá slovní zásoba HSK1 (150 slov) s pinyinem, 150 procvičovacích vět a chytrý systém opakování. Verze zdarma s 20 radikály, 20 slovy a 20 větami; vše odemkněte jednorázovým nákupem nebo měsíčním předplatným.",
-    "inLanguage": ["en", "es", "fr", "de", "it", "ja", "ca", "cs"],
+    "inLanguage": ["ar", "ca", "de", "en", "es", "fr", "it", "ja", "ko", "pt", "vi"],
     "offers": [
       { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "category": "Verze zdarma", "description": "Verze zdarma s 20 radikály, 20 slovy HSK1 a 20 procvičovacími větami" },
       { "@type": "Offer", "price": "6.99", "priceCurrency": "EUR", "category": "Doživotní přístup", "description": "Jednorázový nákup, který odemkne celou aplikaci navždy" },
@@ -86,7 +86,7 @@
       { "@type": "Question", "name": "Jakou úroveň potřebuji na začátek?", "acceptedAnswer": { "@type": "Answer", "text": "Žádnou. HSK 1 Lan je určena pro úplné začátečníky. Začínáme od úplně prvních radikálů a znaků a provedeme vás až k připravenosti na zkoušku." } },
       { "@type": "Question", "name": "Obsahuje aplikace zvuk?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, každé slovo i věta obsahuje zvukovou výslovnost, takže si vedle čtení a psaní procvičíte i poslech." } },
       { "@type": "Question", "name": "Mohu kdykoli zrušit?", "acceptedAnswer": { "@type": "Answer", "text": "Ano. Měsíční předplatné lze kdykoli zrušit z účtu v obchodě s aplikacemi. Nechcete předplatné? Kupte si celou aplikaci jednorázově za 6,99 € a mějte ji navždy." } },
-      { "@type": "Question", "name": "V kolika jazycích je aplikace dostupná?", "acceptedAnswer": { "@type": "Answer", "text": "V osmi: španělština, angličtina, francouzština, němčina, italština, japonština, katalánština a čeština." } }
+      { "@type": "Question", "name": "V kolika jazycích je aplikace dostupná?", "acceptedAnswer": { "@type": "Answer", "text": "Jedenáct: arabština, katalánština, němčina, angličtina, španělština, francouzština, italština, japonština, korejština, portugalština a vietnamština." } }
     ]
   }
   </script>
@@ -142,16 +142,31 @@
             <a href="#download" class="btn btn-primary"><i class="fa-solid fa-download" aria-hidden="true"></i> Stáhnout zdarma</a>
             <a href="#pricing" class="btn btn-ghost"><i class="fa-solid fa-unlock" aria-hidden="true"></i> Odemknout vše – od 2,99 €</a>
           </div>
-          <p class="hero-note"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Zdarma na start · Bez závazků · Dostupné v 8 jazycích</p>
+          <p class="hero-note"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Zdarma na start · Bez závazků · Dostupné v 11 jazycích</p>
         </div>
         <div>
-          <!-- Mockup aplikace (placeholder, zatím bez skutečného snímku) -->
-          <div class="phone" role="img" aria-label="Náhled aplikace: čínský znak 吃 (chī, jíst)">
-            <div class="phone-screen">
-              <div class="ch">吃</div>
+          <!-- App-preview bento cluster (placeholder visuals) -->
+          <div class="hero-bento" role="img" aria-label="Náhled aplikace: slovo 吃 (chī, jíst), jeho radikály 口 a 乞 a věta 我吃饭 (wǒ chī fàn, jím) s tónově zbarveným pchin-jinem">
+            <div class="bx bx-char">
+              <span class="tag tag-gold corner-tag">Slovo</span>
+              <div class="ch hz">吃</div>
               <div class="py">chī</div>
               <div class="mn">jíst</div>
-              <div class="tag">Náhled</div>
+            </div>
+            <div class="bx bx-rad">
+              <div class="k">Radikály</div>
+              <div class="mini-rad"><span>口</span><span>乞</span></div>
+              <div class="gloss">ústa · žebrat</div>
+            </div>
+            <div class="bx bx-phrase">
+              <div class="k">Věta</div>
+              <div class="phrase-hz hz">我吃饭</div>
+              <div class="tone-row">
+                <b style="color:var(--t3)">wǒ</b>
+                <b style="color:var(--t1)">chī</b>
+                <b style="color:var(--t4)">fàn</b>
+              </div>
+              <div class="gloss">jím</div>
             </div>
           </div>
         </div>
@@ -163,7 +178,7 @@
         <div class="counter reveal"><div class="num" data-target="90"></div><div class="label">Čínské radikály</div></div>
         <div class="counter reveal"><div class="num" data-target="150"></div><div class="label">Slova HSK1</div></div>
         <div class="counter reveal"><div class="num" data-target="150"></div><div class="label">Procvičovací věty</div></div>
-        <div class="counter reveal"><div class="num" data-target="8"></div><div class="label">Dostupné jazyky</div></div>
+        <div class="counter reveal"><div class="num" data-target="11"></div><div class="label">Dostupné jazyky</div></div>
       </div>
     </section>
 
@@ -229,18 +244,21 @@
       <div class="wrap">
         <div class="section-head reveal" style="margin-bottom:8px">
           <span class="eyebrow">Učte se ve svém jazyce</span>
-          <h2 class="section-title">Přeloženo do 8 jazyků</h2>
+          <h2 class="section-title">Dostupné v 11 jazycích</h2>
           <p>Studujte čínštinu z jazyka, který už ovládáte — jasnější vysvětlení, rychlejší pokrok.</p>
         </div>
         <div class="lang-chips reveal">
-          <span>Español</span>
-          <span>English</span>
-          <span>Français</span>
+          <span>العربية</span>
+          <span>Català</span>
           <span>Deutsch</span>
+          <span>English</span>
+          <span>Español</span>
+          <span>Français</span>
           <span>Italiano</span>
           <span>日本語</span>
-          <span>Català</span>
-          <span>Čeština</span>
+          <span>한국어</span>
+          <span>Português</span>
+          <span>Tiếng Việt</span>
         </div>
       </div>
     </section>
@@ -350,7 +368,7 @@
           </div>
           <div class="faq-item reveal">
             <button class="faq-q" aria-expanded="false">V kolika jazycích je aplikace dostupná? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
-            <div class="faq-a"><p>V osmi: španělština, angličtina, francouzština, němčina, italština, japonština, katalánština a čeština. Učit se z jazyka, který už znáte, dělá vše jasnější a rychlejší.</p></div>
+            <div class="faq-a"><p>Jedenáct: arabština, katalánština, němčina, angličtina, španělština, francouzština, italština, japonština, korejština, portugalština a vietnamština. Učit se z jazyka, který už znáte, dělá vše jasnější a rychlejší.</p></div>
           </div>
         </div>
       </div>
@@ -392,7 +410,7 @@
             <span class="orchid" aria-hidden="true"><img src="../assets/logo.png" alt="" width="34" height="34" /></span>
             <span>HSK 1 <b style="color:var(--red)">Lan</b></span>
           </div>
-          <p class="about">Příjemná a kompletní aplikace pro přípravu na zkoušku HSK1 z čínštiny — radikály, slovní zásoba, věty a chytré opakování, v 8 jazycích.</p>
+          <p class="about">Příjemná a kompletní aplikace pro přípravu na zkoušku HSK1 z čínštiny — radikály, slovní zásoba, věty a chytré opakování, v 11 jazycích.</p>
           <div class="foot-social">
             <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
             <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
