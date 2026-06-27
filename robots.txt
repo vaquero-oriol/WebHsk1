@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.hsk1lan.com/sitemap.xml
+Sitemap: https://www.hsklan.com/sitemap.xml

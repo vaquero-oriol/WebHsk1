@@ -97,6 +97,7 @@ h2.section-title {
 /* line-art orchid brand mark (mirrors OrchidMark CustomPainter) */
 .orchid { width: 34px; height: 34px; flex: none; color: var(--red); display: block; }
 .orchid svg { display: block; width: 100%; height: 100%; }
+.orchid img { display: block; width: 100%; height: 100%; object-fit: contain; }
 
 /* brush-stroke divider (kept subtle, coral) */
 .brush {
