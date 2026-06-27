@@ -234,6 +234,7 @@ nav.menu a.link:hover { color: var(--red); }
   width: 50px; height: 50px; border-radius: 13px; display: grid; place-items: center;
   background: var(--red-dim); color: var(--red-dark); font-size: 1.35rem; margin-bottom: 16px;
 }
+.tile .ic.hz { font-size: 1.85rem; font-weight: 700; line-height: 1; }
 .tile h3 { font-size: 1.12rem; font-weight: 800; margin-bottom: 8px; }
 .tile p { color: var(--ink-soft); font-size: .94rem; font-weight: 500; }
 .tile .watermark {
@@ -243,6 +244,13 @@ nav.menu a.link:hover { color: var(--red); }
 .tile-accent { background: linear-gradient(160deg, var(--card) 0%, #fff2ec 100%); border-color: #f3cfc6; }
 .tile-accent .ic { background: var(--red); color: #fff; }
 .tile .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 16px; }
+
+/* Compact extras row under the feature tiles */
+.extras { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-top: 18px; }
+.extra { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 18px; }
+.extra > i { color: var(--red); font-size: 1.15rem; margin-bottom: 10px; display: block; }
+.extra h4 { font-size: .98rem; font-weight: 800; margin-bottom: 5px; }
+.extra p { color: var(--ink-soft); font-size: .86rem; font-weight: 500; line-height: 1.45; }
 
 /* ===== Radicals explainer ===== */
 .explain-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 46px; align-items: center; }
@@ -341,6 +349,10 @@ nav.menu a.link:hover { color: var(--red); }
 .stores .eyebrow { color: var(--amber); }
 .stores h2.section-title { color: #fff; }
 .stores p { color: var(--espresso-soft); max-width: 560px; margin: 0 auto 28px; font-weight: 500; }
+/* Warm coral variant for the closing download band (English; roll out on translate) */
+.stores-warm { background: linear-gradient(135deg, var(--red) 0%, #f2a898 100%); }
+.stores-warm .eyebrow { color: rgba(255,255,255,.9); }
+.stores-warm p { color: rgba(255,255,255,.92); }
 .store-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
 .store-btn {
   display: inline-flex; align-items: center; gap: 12px;
