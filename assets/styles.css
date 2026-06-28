@@ -174,11 +174,7 @@ nav.menu a.link:hover { color: var(--red); }
   font-size: clamp(2.1rem, 5vw, 3.4rem);
   line-height: 1.1; font-weight: 800; letter-spacing: -.02em; margin-bottom: 18px;
 }
-.hero h1 .hl { color: var(--red); position: relative; white-space: nowrap; }
-.hero h1 .hl::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 8px;
-  background: var(--amber); opacity: .35; border-radius: 4px; z-index: -1;
-}
+.hero h1 .hl { color: var(--red); white-space: nowrap; }
 .hero p.sub { font-size: 1.12rem; color: var(--ink-soft); font-weight: 500; max-width: 520px; margin-bottom: 26px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
 .hero-note { font-size: .88rem; color: var(--ink-soft); font-weight: 600; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
@@ -245,13 +241,6 @@ nav.menu a.link:hover { color: var(--red); }
 .tile-accent .ic { background: var(--red); color: #fff; }
 .tile .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 16px; }
 
-/* Compact extras row under the feature tiles */
-.extras { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-top: 18px; }
-.extra { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 18px; }
-.extra > i { color: var(--red); font-size: 1.15rem; margin-bottom: 10px; display: block; }
-.extra h4 { font-size: .98rem; font-weight: 800; margin-bottom: 5px; }
-.extra p { color: var(--ink-soft); font-size: .86rem; font-weight: 500; line-height: 1.45; }
-
 /* ===== Radicals explainer ===== */
 .explain-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 46px; align-items: center; }
 .explain-card {
@@ -276,7 +265,11 @@ nav.menu a.link:hover { color: var(--red); }
 
 /* ===== Languages strip ===== */
 .langs { text-align: center; background: var(--bg-soft); }
-.lang-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 11px; margin-top: 16px; }
+/* Languages: a compact, natural cluster under the stats (English) */
+.langs-top { background: var(--bg); padding: 8px 0 60px; }
+.lang-mini { text-align: center; }
+.lang-mini .eyebrow { display: inline-flex; justify-content: center; margin-bottom: 14px; }
+.lang-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 680px; margin: 0 auto; }
 .lang-chips span {
   background: var(--card); border: 1px solid var(--line); border-radius: 50px;
   padding: 9px 18px; font-weight: 700; box-shadow: var(--shadow); font-size: .92rem; color: var(--ink-soft);
@@ -332,6 +325,9 @@ nav.menu a.link:hover { color: var(--red); }
 
 /* ===== FAQ ===== */
 .faq { background: var(--bg-soft); }
+/* English bg alternation: keep Method/Pricing/FAQ visually distinct from each other */
+.pricing-soft { background: var(--bg-soft); }
+.faq-cream { background: var(--bg); }
 .faq-list { max-width: 760px; margin: 0 auto; }
 .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin-bottom: 13px; overflow: hidden; }
 .faq-q {
