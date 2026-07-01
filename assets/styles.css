@@ -421,6 +421,9 @@ footer ul li a:hover { color: var(--amber); }
   nav.menu.open { max-height: 340px; }
   nav.menu a.link { padding: 16px 22px; border-bottom: 1px solid var(--line); }
   .burger { display: block; }
+  /* Hide the header CTA on mobile: it overflowed the bar (the burger menu +
+     hero buttons already cover this action). */
+  .nav-right > a.btn { display: none; }
 }
 @media (max-width: 560px) {
   .bento { grid-template-columns: 1fr; }
@@ -429,6 +432,15 @@ footer ul li a:hover { color: var(--amber); }
   .foot-grid { grid-template-columns: 1fr; }
   .explain-card .big-char { font-size: 5rem; }
   .hero-bento { grid-template-columns: 1.3fr 1fr; }
+
+  /* Full-width, stacked CTAs so long labels never overflow narrow phones */
+  .hero-cta { flex-direction: column; align-items: stretch; }
+  .hero-cta .btn { width: 100%; justify-content: center; }
+  /* Let long button / highlight labels wrap instead of forcing overflow */
+  .btn { white-space: normal; }
+  .hero h1 .hl { white-space: normal; }
+  /* Wide legal tables scroll horizontally instead of stretching the page */
+  .legal table { display: block; overflow-x: auto; white-space: nowrap; }
 }
 
 @media (prefers-reduced-motion: reduce) {

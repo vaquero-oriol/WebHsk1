@@ -25,6 +25,13 @@ if (lang) {
     langBtn.setAttribute('aria-expanded', open);
   });
   document.addEventListener('click', () => lang.classList.remove('open'));
+
+  // Remember a manually chosen language so the auto-redirect on "/" respects it.
+  lang.querySelectorAll('ul li a[hreflang]').forEach((a) => {
+    a.addEventListener('click', () => {
+      try { localStorage.setItem('hsklan_lang', a.getAttribute('hreflang')); } catch (e) {}
+    });
+  });
 }
 
 /* ===== FAQ accordion ===== */

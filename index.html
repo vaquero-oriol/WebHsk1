@@ -4,6 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Send visitors to their language automatically. Static hosting can't read
+       Accept-Language, so we detect it client-side. Runs before render; a manual
+       choice (stored on language switch) is always respected. -->
+  <script>
+  (function () {
+    try {
+      if (localStorage.getItem('hsklan_lang')) return; // user already chose a language
+      var supported = { es:1, fr:1, de:1, it:1, ja:1, ca:1, cs:1 };
+      var langs = navigator.languages || [navigator.language || ''];
+      for (var i = 0; i < langs.length; i++) {
+        var code = String(langs[i] || '').toLowerCase().split('-')[0];
+        if (code === 'en') return;                 // English → stay on this page
+        if (supported[code]) { location.replace('/' + code + '/'); return; }
+      }
+    } catch (e) {}
+  })();
+  </script>
+
   <!-- Primary Meta Tags -->
   <title>HSK 1 Lan: Master HSK1 Chinese | Radicals, Vocabulary & Phrases</title>
   <meta name="title" content="HSK 1 Lan: Master HSK1 Chinese | Radicals, Vocabulary & Phrases" />
@@ -62,7 +80,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-t1nt8BQoYMLFN5p42tRAtuAAFQaCQODekUVeKKZrEnEyp4H2R0RHFz0KWpmj7i8g" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Styles -->
   <link rel="stylesheet" href="assets/styles.css" />
