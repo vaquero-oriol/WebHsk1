@@ -11,7 +11,7 @@
   (function () {
     try {
       if (localStorage.getItem('hsklan_lang')) return; // user already chose a language
-      var supported = { es:1, fr:1, de:1, it:1, ja:1, ca:1, cs:1 };
+      var supported = { es:1, fr:1, de:1, it:1, ja:1, ca:1, cs:1, pt:1 };
       var langs = navigator.languages || [navigator.language || ''];
       for (var i = 0; i < langs.length; i++) {
         var code = String(langs[i] || '').toLowerCase().split('-')[0];
@@ -41,6 +41,7 @@
   <link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/" />
   <link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/" />
   <link rel="alternate" hreflang="cs" href="https://www.hsklan.com/cs/" />
+  <link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/" />
   <link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/" />
 
   <!-- Open Graph / Facebook -->
@@ -61,6 +62,7 @@
   <meta property="og:locale:alternate" content="ja_JP" />
   <meta property="og:locale:alternate" content="ca_ES" />
   <meta property="og:locale:alternate" content="cs_CZ" />
+  <meta property="og:locale:alternate" content="pt_BR" />
   <meta property="og:site_name" content="HSK 1 Lan" />
 
   <!-- Twitter -->
@@ -164,6 +166,7 @@
             <li><a href="ja/index.html" hreflang="ja" role="menuitem">日本語</a></li>
             <li><a href="ca/index.html" hreflang="ca" role="menuitem">Català</a></li>
             <li><a href="cs/index.html" hreflang="cs" role="menuitem">Čeština</a></li>
+            <li><a href="pt/index.html" hreflang="pt" role="menuitem">Português</a></li>
           </ul>
         </div>
         <a href="#pricing" class="btn btn-primary" style="padding:9px 18px;font-size:.9rem">Get started</a>
