@@ -298,6 +298,7 @@ nav.menu a.link:hover { color: var(--red); }
 .price-card ul li { display: flex; gap: 10px; align-items: flex-start; color: var(--ink-soft); margin-bottom: 11px; font-weight: 500; }
 .price-card ul li i { color: var(--green); margin-top: 4px; }
 .price-card .btn { width: 100%; justify-content: center; }
+.price-note { max-width: 1000px; margin: 18px auto 0; text-align: center; color: var(--muted); font-size: .9rem; font-weight: 500; }
 
 /* ===== How to start (stepper) ===== */
 .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
