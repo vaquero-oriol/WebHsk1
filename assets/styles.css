@@ -175,6 +175,7 @@ nav.menu a.link:hover { color: var(--red); }
   line-height: 1.1; font-weight: 800; letter-spacing: -.02em; margin-bottom: 18px;
 }
 .hero h1 .hl { color: var(--red); white-space: nowrap; }
+.hero h1 .brand { white-space: nowrap; }
 .hero p.sub { font-size: 1.12rem; color: var(--ink-soft); font-weight: 500; max-width: 520px; margin-bottom: 26px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
 .hero-note { font-size: .88rem; color: var(--ink-soft); font-weight: 600; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
@@ -350,9 +351,10 @@ nav.menu a.link:hover { color: var(--red); }
 .stores-warm { background: linear-gradient(135deg, var(--red) 0%, #f2a898 100%); }
 .stores-warm .eyebrow { color: rgba(255,255,255,.9); }
 .stores-warm p { color: rgba(255,255,255,.92); }
-.store-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+/* Two equal-width columns so both store buttons match regardless of label/icon width */
+.store-btns { display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 16px; }
 .store-btn {
-  display: inline-flex; align-items: center; gap: 12px;
+  display: flex; align-items: center; justify-content: center; gap: 12px;
   background: #fff; color: var(--ink); padding: 12px 24px; border-radius: 14px;
   transition: transform .18s ease; font-weight: 700;
 }
@@ -437,6 +439,8 @@ footer ul li a:hover { color: var(--amber); }
   /* Full-width, stacked CTAs so long labels never overflow narrow phones */
   .hero-cta { flex-direction: column; align-items: stretch; }
   .hero-cta .btn { width: 100%; justify-content: center; }
+  /* Stack the two store buttons (still equal width) so they never overflow */
+  .store-btns { grid-auto-flow: row; }
   /* Let long button / highlight labels wrap instead of forcing overflow */
   .btn { white-space: normal; }
   .hero h1 .hl { white-space: normal; }
