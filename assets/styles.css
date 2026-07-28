@@ -541,3 +541,125 @@ footer ul li a:hover { color: var(--amber); }
 .word-cta .applist { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin: 0 auto 22px; max-width: 620px; }
 .word-cta .applist li { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-soft); font-weight: 600; font-size: .92rem; }
 .word-cta .applist i { color: var(--green); }
+
+/* Method section: contextual link to the word-list hub */
+.method-hub-link {
+  margin-top: 14px;
+  font-size: .98rem;
+  color: var(--ink-soft, #6b6b6b);
+}
+.method-hub-link a {
+  color: var(--red-dark);
+  font-weight: 700;
+  border-bottom: 1px solid var(--red-dim);
+  padding-bottom: 1px;
+  transition: border-color .15s ease;
+}
+.method-hub-link a:hover { border-bottom-color: var(--red-dark); }
+
+/* ============================================================
+   Per-word pages (/hsk1-words/{hanzi}/)
+   ============================================================ */
+/* ---- hero: dictionary-style definition header ---- */
+.page-hero.wordhero { padding-top: 30px; padding-bottom: 26px; }
+.wordhero .crumbs { font-size: .88rem; color: var(--ink-soft); margin-bottom: 16px; }
+.wordhero .crumbs a { color: var(--ink-soft); border-bottom: 1px solid transparent; }
+.wordhero .crumbs a:hover { color: var(--red-dark); border-bottom-color: var(--red-dim); }
+.wordhero .crumbs .sep { margin: 0 8px; color: var(--muted); }
+
+.word-head { display: flex; align-items: center; gap: 20px; }
+.wordhero .wh-tile {
+  flex: none; width: auto; min-width: 104px; height: 104px; margin: 0;
+  padding: 0 18px; border-radius: 20px; white-space: nowrap;
+  background: var(--card); border: 1px solid var(--line);
+  box-shadow: 0 6px 18px rgba(74,63,53,.06);
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Noto Sans SC", sans-serif; font-size: 3.8rem; font-weight: 800;
+  line-height: 1; letter-spacing: 0; max-width: none; color: var(--ink);
+}
+.wh-body { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.wh-py { font-family: "Nunito", sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1.1; }
+.wh-mean { font-size: 1.28rem; color: var(--ink); font-weight: 700; margin: 0; line-height: 1.3; }
+.word-badges { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+.wbadge {
+  font-size: .8rem; font-weight: 700; padding: 4px 11px; border-radius: 999px;
+  background: var(--bg-soft); color: var(--ink-soft); border: 1px solid var(--line);
+}
+.wbadge.alt { background: var(--red-dim); color: var(--red-dark); border-color: var(--red-dim); }
+.wordhero .lead { margin-top: 18px; max-width: 680px; }
+
+/* ---- content: editorial definition ---- */
+.wordcontent { padding: 22px 0 48px; }
+.wordcontent .wrap { max-width: 780px; }
+.wd-block { padding: 22px 0; border-top: 1px solid var(--line); }
+.wd-block:first-child { border-top: 0; padding-top: 6px; }
+.wd-label {
+  display: block; font-size: .74rem; letter-spacing: .12em; text-transform: uppercase;
+  font-weight: 800; color: var(--red); margin-bottom: 12px;
+}
+.wd-text { color: var(--ink); line-height: 1.75; font-size: 1.05rem; margin: 0; max-width: 64ch; }
+
+/* dissection: composition strip  爫 + 冖 + 心 + 夂 */
+.wd-compose { display: flex; flex-wrap: wrap; align-items: stretch; gap: 10px; }
+/* multi-character words: one row per character  今 = 人 + 一 */
+.cmp-grouped { display: flex; flex-direction: column; gap: 14px; }
+.cmp-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.cmp-char {
+  font-family: var(--cjk); font-size: 2rem; font-weight: 800; color: var(--ink);
+  line-height: 1; flex: none;
+}
+.cmp-eq { color: var(--muted); font-weight: 700; font-size: 1.15rem; flex: none; }
+.comp {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+  min-width: 74px; padding: 11px 14px; border-radius: 14px;
+  background: var(--bg-soft); border: 1px solid var(--line);
+}
+.comp-hz { font-family: var(--cjk); font-size: 1.85rem; font-weight: 700; line-height: 1; color: var(--ink); }
+.comp-py { font-size: .8rem; font-weight: 800; color: var(--t3); }
+.comp-mn { font-size: .78rem; color: var(--ink-soft); text-align: center; }
+.comp-plus { display: flex; align-items: center; font-size: 1.05rem; font-weight: 700; color: var(--muted); }
+
+/* example: editorial pull-quote */
+.wd-quote { margin: 0; padding: 3px 0 3px 20px; border-left: 3px solid var(--red); }
+.ex-cn { font-family: var(--cjk); font-size: 1.55rem; font-weight: 700; color: var(--ink); line-height: 1.4; margin: 0 0 6px; }
+.ex-py { color: var(--red-dark); font-weight: 700; font-size: .98rem; margin: 0 0 4px; }
+.ex-tr { color: var(--ink-soft); font-style: italic; margin: 0; }
+
+/* related: refined pills */
+.wd-rel { display: flex; flex-wrap: wrap; gap: 8px; }
+.wd-pill {
+  display: inline-flex; align-items: baseline; gap: 7px; padding: 8px 13px;
+  border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--line);
+  transition: border-color .12s ease, background .12s ease;
+}
+.wd-pill:hover { border-color: var(--red); background: var(--red-dim); }
+.wp-hz { font-family: var(--cjk); font-size: 1.12rem; font-weight: 700; color: var(--ink); }
+.wp-py { font-size: .8rem; color: var(--ink-soft); }
+
+/* prev / next: minimal */
+.prevnext {
+  display: flex; justify-content: space-between; gap: 16px;
+  margin: 0; padding-top: 20px; border-top: 1px solid var(--line);
+}
+.pn { display: flex; flex-direction: column; gap: 3px; max-width: 48%; }
+.pn-next { text-align: right; align-items: flex-end; margin-left: auto; }
+.pn-l { font-size: .78rem; color: var(--red-dark); font-weight: 800; }
+.pn-h { font-family: var(--cjk); font-size: 1.3rem; font-weight: 700; color: var(--ink); }
+.pn:hover .pn-h { color: var(--red-dark); }
+
+.word-back { margin-top: 22px; }
+.word-back a { color: var(--ink-soft); font-weight: 700; }
+.word-back a:hover { color: var(--red-dark); }
+
+/* clickable hanzi in the hub list */
+.vh.hz a { color: inherit; border-bottom: 1px dotted var(--muted); }
+.vh.hz a:hover { color: var(--red-dark); border-bottom-color: var(--red-dark); }
+
+@media (max-width: 640px) {
+  .word-head { gap: 16px; }
+  .wordhero .wh-tile { min-width: 84px; height: 84px; padding: 0 14px; font-size: 3rem; border-radius: 16px; }
+  .wh-py { font-size: 1.3rem; }
+  .wh-mean { font-size: 1.15rem; }
+  .wd-text { font-size: 1.02rem; }
+  .ex-cn { font-size: 1.35rem; }
+}

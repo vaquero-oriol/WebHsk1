@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.hsklan.com/sitemap.xml
+Sitemap: https://www.hsklan.com/sitemap-words.xml
