@@ -169,4 +169,133 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Content hub: HSK1 word list (8 locales) -->
+  <url>
+    <loc>https://www.hsklan.com/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
+  <url>
+    <loc>https://www.hsklan.com/es/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
+  <url>
+    <loc>https://www.hsklan.com/fr/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
+  <url>
+    <loc>https://www.hsklan.com/de/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
+  <url>
+    <loc>https://www.hsklan.com/it/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
+  <url>
+    <loc>https://www.hsklan.com/ca/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
+  <url>
+    <loc>https://www.hsklan.com/ja/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
+  <url>
+    <loc>https://www.hsklan.com/pt/hsk1-words/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hsklan.com/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.hsklan.com/es/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.hsklan.com/fr/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.hsklan.com/de/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.hsklan.com/it/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.hsklan.com/ca/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hsklan.com/ja/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.hsklan.com/pt/hsk1-words/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hsklan.com/hsk1-words/" />
+  </url>
+
 </urlset>
